@@ -29,6 +29,14 @@ Expected response:
 }
 ```
 
+if that dosent work please 
+**Test with cURL or Postman**
+curl "http://tracking-number-api-env.eba-xpnm9er3.eu-north-1.elasticbeanstalk.com/next-tracking-number?origin_country_id=MY&destination_country_id=ID&weight=1.23&created_at=2024-06-19T10:30:00%2B08:00&customer_id=de619854-b59b-425e-9db4-943979e1bd49&customer_name=RedBox%20Logistics&customer_slug=redbox-logistics"
+
+
+
+*If you get a response, the app is working — it’s just your browser that might be caching or blocking.*
+
 ---
 
 ## 🛠️ How to Run Locally
